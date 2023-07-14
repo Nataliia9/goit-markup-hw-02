@@ -101,7 +101,6 @@ body {
 
 .hero-title {
   color: var(--white-background);
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -130,7 +129,6 @@ body {
 
 .section-title {
   color: var(--dark);
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -185,7 +183,6 @@ body {
 .portf-filtr-btn {
   color: var(--primary-brand);
   background-color: var(--light);
-  text-align: center;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
