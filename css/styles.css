@@ -1,0 +1,196 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  /* --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42; */
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark);
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
+.header {
+  background-color: var(--white-background);
+}
+
+.logo {
+  color: var(--primary-brand);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: var(--dark);
+}
+
+.logo-footer {
+  color: var(--light);
+}
+
+.header-menu-link,
+.header-soc-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-menu-link {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(---pressed-state);
+  text-decoration: underline;
+}
+
+.header-soc-link {
+  color: var(--text);
+  font-weight: 400;
+}
+
+.header-soc-link:hover,
+.header-soc-link:focus {
+  color: var(---pressed-state);
+}
+
+.hero {
+  background: var(--dark);
+}
+
+.hero-title {
+  color: var(--white-background);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.hero-btn {
+  color: var(--white-background);
+  background-color: var(--primary-brand);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: var(--pressed-state);
+}
+
+.advantages {
+  background-color: var(--white-background);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-text {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.we-doing {
+  background-color: var(--white-background);
+}
+
+.team {
+  background-color: var(--light);
+}
+
+.team-card {
+  background-color: var(--white-background);
+}
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer-text {
+  color: var(--light);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.portfolio {
+  background-color: var(--white-background);
+}
+
+.portf-filtr-btn {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.portf-filtr-btn:hover,
+.portf-filtr-btn:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+
+.portf-item {
+  background-color: var(--white-background);
+}
