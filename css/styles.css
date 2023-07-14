@@ -20,7 +20,7 @@ body {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 .link {
   text-decoration: none;
@@ -129,6 +129,7 @@ body {
 }
 
 .section-title {
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -138,6 +139,7 @@ body {
 }
 
 .section-subtitle {
+  color: var(--dark);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -198,10 +200,6 @@ body {
   background-color: var(--pressed-state);
 }
 
-.portf-filtr,
-.portf-list {
-  list-style-type: none;
-}
 
 .portf-item {
   background-color: var(--white-background);
