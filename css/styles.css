@@ -15,7 +15,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--dark);
+  color: var(--text);
+  background-color: var(--white-background);
 }
 
 .list {
@@ -45,7 +46,7 @@ body {
 
 .logo {
   color: var(--primary-brand);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -80,6 +81,10 @@ body {
   text-decoration: underline;
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .header-soc-link {
   color: var(--text);
   font-weight: 400;
@@ -99,7 +104,7 @@ body {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
@@ -113,7 +118,9 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.hero-btn:hover {
+
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--pressed-state);
 }
 
@@ -125,7 +132,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -189,6 +196,11 @@ body {
 .portf-filtr-btn:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
+}
+
+.portf-filtr,
+.portf-list {
+  list-style-type: none;
 }
 
 .portf-item {
